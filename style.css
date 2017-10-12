@@ -1,8 +1,8 @@
 .body{
-	background-color: #777;
-	content: #ebebeb;
-	margin-left: 20%;
-	margin-right: 20%;
+	background-color: #777;	
+	content: #ebebeb; 
+	margin-left: 15%; 
+	margin-right: 15%; 
 	font-family: 'arial', 'helvetica neue', 'helvetica', sans-serif;
 	font-size: 18px;
 }
@@ -47,26 +47,26 @@
 			padding: 10px;
 		}
 
-		#h{
-			background: #ebebeb;
-			color: #777;
-			font-weight: 600; 	
-			padding: 15px;
-		}
+			#h{
+				background: #ebebeb;
+				color: #777;
+				font-weight: 600; 	
+				padding: 15px;
+			}
 
-		#p{
-			margin-top: 10px;
-			margin-bottom: 10px;
-			background: #ebebeb;
-			color: #777;
-			padding: 15px;
-		}
+			#p{
+				margin-top: 10px;
+				margin-bottom: 10px;
+				background: #ebebeb;
+				color: #777;
+				padding: 15px;
+			}
 
 .aside{
 	float: right;
 	margin-top: 10px;
 	margin-bottom: 20px;
-	width: 40%;
+	width: 43%;
 	height: 260px;
 	padding: 15px;
 	line-height: 200%;
@@ -85,4 +85,20 @@
 	line-height: 400%;
 	text-align: center;
 	color: #777;
+}
+
+
+/*Media Queries*/
+@media screen and (max-width: 1000px) {
+	.section {
+		background: blue;
+		width: 95%;
+		float: none;
+	}
+
+	.aside {
+		background: red;
+		width: 95%;
+		float: none;
+	}
 }
